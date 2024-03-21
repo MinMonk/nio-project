@@ -1,0 +1,7 @@
+#忽略编译后的文件
+target/
+#忽略所有.idea目录
+.idea/
+#忽略所有.iml文件
+*.iml
+.DS_Store

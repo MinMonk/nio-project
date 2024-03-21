@@ -1,0 +1,3 @@
+该工程是NIO(Non-blocking IO)的基础工程,包含NIO的一些基础API操作
+
+groupchat包下是一个基于NIO原生写的一个简易版的群聊程序.
