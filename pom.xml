@@ -4,13 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.monk.nio</groupId>
+    <groupId>com.monk</groupId>
     <artifactId>nio-project</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>group-chat-basic</module>
-        <module>nio-common</module>
+        <module>nio-basic</module>
+        <module>common</module>
+        <module>group-chat-netty</module>
     </modules>
 
     <name>nio-project</name>
@@ -55,10 +56,6 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>io.netty</groupId>
-            <artifactId>netty-all</artifactId>
         </dependency>
     </dependencies>
 
